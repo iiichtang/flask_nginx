@@ -25,4 +25,6 @@ RUN ln -s /home/docker/supervisor-app.conf /etc/supervisor/conf.d/
 
 EXPOSE 80 443 5000 8000
 
+WORKDIR /home/docker
+
 CMD ["supervisord", "-n"]
