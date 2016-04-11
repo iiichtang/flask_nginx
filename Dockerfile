@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER ch.tang@qtmedical.com
+MAINTAINER iiichtang@gmail.com
 
 RUN apt-get update
 
